@@ -9,10 +9,14 @@ public class Main {
 		
 		Persona p = new Persona();
 		
+<<<<<<< HEAD
 		p.setNombre("Steve rogers");
 		p.setEdad("45"); 
 		
 		System.out.println(p);
+=======
+		
+>>>>>>> desarrollo_coche
 	}
 
 }
