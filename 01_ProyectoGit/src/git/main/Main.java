@@ -16,12 +16,13 @@ public class Main {
 		
 		System.out.println(p);
 		
+
+
 		Direccion d = new Direccion();
-		d.setNombreVia("calle de la pllata");
-		d.setTipoVia("calle");
-		
-		
-		
+		d.setNombreVia("Trece rue del percebe");
+		d.setTipoVia("Calle");
+		d.setCodPostal("39611");
+		d.setPais("España");
 
 	}
 

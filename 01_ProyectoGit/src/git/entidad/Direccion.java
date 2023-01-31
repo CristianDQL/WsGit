@@ -3,6 +3,7 @@ package git.entidad;
 public class Direccion {
 	private String tipoVia, nombreVia, codPostal;
 	private Direccion direccion;
+	private String pais;
 
 	public String getTipoVia() {
 		return tipoVia;
@@ -39,7 +40,15 @@ public class Direccion {
 	@Override
 	public String toString() {
 		return "Direccion [tipoVia=" + tipoVia + ", nombreVia=" + nombreVia + ", codPostal=" + codPostal
-				+ ", direccion=" + direccion + "]";
+				+ ", direccion=" + direccion + ", pais=" + pais + "]";
+	}
+
+	public String getPais() {
+		return pais;
+	}
+
+	public void setPais(String pais) {
+		this.pais = pais;
 	}
 	
 }
